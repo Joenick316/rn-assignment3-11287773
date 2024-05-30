@@ -1,20 +1,34 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+
+import HeroSection from './sections/heroSection';
+import CartSection from './sections/cartegories';
+import SearchSection from './sections/serach';
+import TaskSection from './sections/task';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <SafeAreaView style={styles.SafeAreaView}>
+      <View style={styles.container}>
+     <HeroSection/>
+     <SearchSection/>
+     <CartSection/>
+     <TaskSection/>
+
       <StatusBar style="auto" />
     </View>
+    </SafeAreaView>
+    
   );
 }
 
 const styles = StyleSheet.create({
+  SafeAreaView:{
+    flex: 1,
+  },
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  
   },
 });
