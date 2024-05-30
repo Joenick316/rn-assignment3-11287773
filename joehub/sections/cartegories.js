@@ -47,6 +47,7 @@ const CartSection = () => {
 
   return (
     <View style={styles.container}>
+    <Text style={styles.title}>Categories</Text>
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
@@ -72,6 +73,10 @@ const styles = StyleSheet.create({
   scrollContainer: {
     paddingVertical: 12,
   },
+  title:{
+    fontSize: 20,
+    fontWeight:'bold'
+  },
   cartCard: {
     width: 180,
     marginHorizontal: 8,
@@ -82,6 +87,7 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
     shadowRadius: 4,
+    padding: 10,
   },
   cartImage: {
     width: "100%",
