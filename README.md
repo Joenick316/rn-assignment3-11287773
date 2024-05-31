@@ -33,6 +33,8 @@ This is a React Native application created for the DCIT202 Mobile Application De
    - Handles user interactions (e.g., tapping on the card)
 
 ## Screenshot
+![image](https://github.com/Joenick316/rn-assignment3-11287773/assets/152196135/dfd761a4-d378-483f-9d63-cb328c36f6f5)
+
 
 
 ## Installation and Usage
@@ -46,6 +48,7 @@ This is a React Native application created for the DCIT202 Mobile Application De
 4. Start the development server:   ```   npx react-native start   ```
 
 5. Run the application on your emulator or physical device:   ```   npx react-native run-android   ```   or   ```   npx react-native run-ios   ```
+6. 
 
 ## Acknowledgments
 
